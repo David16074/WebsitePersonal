@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Selamat Datang - Pancasila & Semangat Kebangsaan</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffa751, #ffe259);
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+      animation: fadeIn 1.2s ease;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    .start-btn {
+      padding: 14px 32px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #004d40;
+      background-color: #fff;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .start-btn:hover {
+      background-color: #f9f9f9;
+      transform: translateY(-2px);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      .start-btn { padding: 12px 24px; font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Datang</h1>
+    <p>Pelajari dan hayati nilai-nilai Pancasila dalam kehidupan sehari-hari.<br>Bangun semangat kebangsaan bersama kami.</p>
+    <a href="Pancasila Saat Ini - Kesadaran dan Semangat Kebangsaan.html">
+      <button class="start-btn">Mulai Belajar</button>
+    </a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodata Penulis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #008080, #00695c);
+      color: #fff;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #004d40;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      color: #ffe59d;
+    }
+
+    .biodata-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .photo {
+      flex: 0 0 200px;
+      text-align: center;
+    }
+
+    .photo img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 12px;
+      border: 4px solid #ffa751;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    }
+
+    .biodata {
+      flex: 1;
+      font-size: 1rem;
+    }
+
+    .biodata table {
+      width: 100%;
+      border-spacing: 10px;
+    }
+
+    td:first-child {
+      width: 160px;
+      vertical-align: top;
+      font-weight: 600;
+      color: #ffe59d;
+    }
+
+    ol, ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons img {
+      width: 60px;
+      margin-right: 15px;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .social-icons img:hover {
+      transform: scale(1.1);
+    }
+
+    .btn-kembali {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #ffa751;
+      color: #004d40;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-kembali:hover {
+      background-color: #ff8c00;
+    }
+
+    @media (max-width: 700px) {
+      .biodata-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .photo img {
+        max-width: 150px;
+      }
+
+      td:first-child {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Biodata Penulis</h1>
+    <div class="biodata-wrapper">
+      <div class="photo">
+        <img src="foto SMP.jpg" alt="Foto Penulis">
+      </div>
+      <div class="biodata">
+        <table>
+          <tr>
+            <td>Nama</td>
+            <td>: David Gerard Hutagaol</td>
+          </tr>
+          <tr>
+            <td>Alamat</td>
+            <td>: GBKP KM4 Padang Bulan</td>
+          </tr>
+          <tr>
+            <td>Tempat & Tanggal Lahir</td>
+            <td>: Batam, 16 Juli 2006</td>
+          </tr>
+          <tr>
+            <td>Mata Kuliah Favorit</td>
+            <td>:
+              <ol>
+                <li>Desain Web</li>
+                <li>Bahasa Inggris</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <td>Hobi</td>
+            <td>:
+              <ul>
+                <li>Tenis</li>
+                <li>Makan</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Sosial Media</td>
+            <td class="social-icons">
+              <a href="https://www.tiktok.com/@ddapidd16?_t=ZS-8tofPqb2Ts0&_r=1" target="_blank">
+                <img src="lambang tiktok.png" alt="TikTok">
+              </a>
+              <a href="https://www.instagram.com/abcdefgerardd?igsh=ZTVwend0N3d2bTNo" target="_blank">
+                <img src="20160512logo_baru_instagram.jpg" alt="Instagram">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <a href="Pancasila Saat Ini - Kesadaran dan Semangat Kebangsaan.html" class="btn-kembali"><i class="fas fa-arrow-left"></i> Kembali</a>
+    </div>
+  </div>
+</body>
+</html>
